@@ -9,6 +9,10 @@ end
 class Cart
     @items = []
     @total = 0
+    @a_count = 0
+    @b_count = 0
+    @c_count = 0
+    @d_count = 0
 
     def self.add_to_cart(sku_id)
         @items.push(sku_id)
