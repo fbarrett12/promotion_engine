@@ -5,3 +5,8 @@ class Sku
         @price = price
     end
 end
+
+class Cart
+    @items = []
+    @total = 0
+end
