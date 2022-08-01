@@ -39,3 +39,17 @@ class Cart
             end
         end
 end
+
+module PromotionEngine
+    def promo_one(count)
+        
+    end
+   
+    def promo_two(count)
+   
+    end
+   
+    def promo_three(count)
+   
+    end
+end
