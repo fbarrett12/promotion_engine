@@ -14,4 +14,8 @@ class Cart
         @items.push(sku_id)
         puts "done"
     end
+
+    def self.show_items
+        puts @items
+    end
 end
