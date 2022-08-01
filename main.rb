@@ -42,7 +42,12 @@ end
 
 module PromotionEngine
     def promo_one(count)
-        
+        if count > 0
+            new_count += count/3
+            new_count += result.floor()
+            remainder = count % 3
+            @result = (new_count * 130) + (remainder * 50)
+        end
     end
    
     def promo_two(count)
