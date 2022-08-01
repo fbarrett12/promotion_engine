@@ -22,4 +22,20 @@ class Cart
     def self.show_items
         puts @items
     end
+
+    def self.which_promo_to_apply
+        for item in @items
+            if item == "A"
+                @a_count += 1
+            end
+            if item == "B"
+                @b_count += 1
+            end
+            if item == "C"
+                @c_count += 1
+            end
+            if item == "D"
+                @d_count += 1
+            end
+        end
 end
