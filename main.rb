@@ -41,6 +41,7 @@ class Cart
 end
 
 module PromotionEngine
+    @result = 0
     def promo_one(count)
         if count > 0
             new_count += count/3
@@ -60,6 +61,10 @@ module PromotionEngine
     end
    
     def promo_three(count1, count2)
-        
+        if count1 > 0 && count2 > 0
+            if count1 == count2
+
+            end
+        end
     end
 end
