@@ -63,8 +63,14 @@ module PromotionEngine
     def promo_three(count1, count2)
         if count1 > 0 && count2 > 0
             if count1 == count2
-
-            end
+                @resilt = count1 * 30
+           elsif count1 > count2
+                new_count = count1 - count2
+                @result = (count2 * 30) + (new_count * 20)
+            elsif count2 > count1
+                new_count = count2 - count1
+                @result = (count1 * 30) + (new_count * 15)
+           end
         end
     end
 end
